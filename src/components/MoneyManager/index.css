@@ -5,7 +5,7 @@
 }
 
 .bg-container {
-  padding: 50px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,7 +15,8 @@
   background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
   background-size: cover;
   padding: 50px;
-  width: 75%;
+  width: 70%;
+  border-radius: 25px;
 }
 
 .title-heading {
@@ -36,7 +37,7 @@
 .balance-details {
   display: flex;
   align-items: center;
-  width: 75%;
+  width: 70%;
   margin-top: 30px;
   justify-content: space-between;
 }
@@ -89,7 +90,7 @@
 .expenses-container {
   background-color: #ede9fe;
   border: 1px solid #7c3aed;
-  padding: 25px;
+  padding: 20px;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -101,4 +102,98 @@
   width: 75px;
   height: 75px;
   margin-right: 20px;
+}
+
+.total-data-container {
+  display: flex;
+  width: 70%;
+
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.transection-container {
+  border: 1px solid #7e858e;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.transection-heading {
+  font-size: 17px;
+  color: #475569;
+  margin-bottom: 20px;
+}
+.text-input {
+  outline: none;
+  border: 1px solid #7e858e;
+  padding: 8px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+.label {
+  font-size: 15px;
+  color: #7e858e;
+  margin-bottom: 8px;
+}
+
+.add-btn {
+  height: 30px;
+  width: 65px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.history-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.history-heading {
+  font-size: 17px;
+  color: #475569;
+}
+
+.history-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.title-part {
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border-right: none;
+}
+
+.amount-part {
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border-left: none;
+  border-right: none;
+}
+.type-part {
+  border: 1px solid #475569;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border-left: none;
 }
